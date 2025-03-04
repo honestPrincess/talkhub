@@ -38,23 +38,25 @@
     </div>
     <label>성별</label>
     <div>
+
         <label>
-            <input type="radio" value="남"/>
+            <input type="radio" value="남" name="gender"/>
             남
         </label>
         <label>
-            <input type="radio" value="여"/>
+            <input type="radio" value="여" name="gender"/>
             여
         </label>
         <label>
-            <input type="radio" value="비공개"/>
+            <input type="radio" value="비공개" name="gender"/>
             비공개
         </label>
+
     </div>
     <label>출생년도</label>
     <div>
         <label>
-            <select>
+            <select name="birth">
                 <c:forEach var="i" begin="1970" end="2025">
                     <option value="${i}"> ${i}년</option>
                 </c:forEach>
