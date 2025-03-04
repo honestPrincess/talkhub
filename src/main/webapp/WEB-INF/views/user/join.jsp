@@ -48,7 +48,7 @@
             여
         </label>
         <label>
-            <input type="radio" value="비공개" name="gender"/>
+            <input type="radio" value="비공개" name="gender" />
             비공개
         </label>
 

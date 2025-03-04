@@ -2,19 +2,15 @@
   Created by IntelliJ IDEA.
   User: USER
   Date: 25. 3. 4.
-  Time: 오전 11:46
+  Time: 오후 5:21
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>TalkHub</title>
+    <title>로그인 실패</title>
 </head>
 <body>
-<h1>TalkHub</h1>
-<p>
-  TalkHub 에 어서오세요!
-</p>
-
+    로그인 실패
 </body>
 </html>
